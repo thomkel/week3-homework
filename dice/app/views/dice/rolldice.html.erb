@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="dice.css">
+	</head>
+
+	<body>
+		<h1>Dice Game</h1>
+
+		<img src="<%= @image1 %>">
+		<img src="<%= @image2 %>">
+
+		<p>Dice roll: <%= @dice %></p>
+
+		<a href="/dice/rolldice?goal=<%= @goal %>"><button>Roll Dice</button></a>
+
+		<p><b> <%= @message %> </b></p>
+
+	</body>
+
+</html>
