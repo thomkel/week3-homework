@@ -1,17 +1,19 @@
 html {
-	background: #696969;
+	background-color: #D2D2D2;
 }
 
 body {
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: 'Actor', sans-serif;
 	background: white;
 	width: 400px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	border-style: groove;
-	border-color: #5F9EA0;
-	border-width: 10px;
+	border-bottom: solid;
+	border-top: solid;
+	border-color: black;
+	border-width: 5px;
+	padding: 10px;
 }
 
 ul {
@@ -21,4 +23,9 @@ ul {
 img {
 	height: 100px;
 	width: 100px;
+}
+
+a button {
+	width: 100px;
+	height: 40px;
 }
